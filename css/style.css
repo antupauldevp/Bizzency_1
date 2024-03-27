@@ -1,0 +1,157 @@
+:root{
+    --primary-color:#0f2f44;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.w-33{
+    width: calc(100% / 3);
+}
+.w-50{
+    width: calc(100% / 2);
+}
+.text-left{
+    text-align: left;
+
+}
+.justify-space{
+    justify-content: space-between;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+
+/*heade top-bar */
+#top-bar{
+    background-color: var(--primary-color);
+    height: 50px;
+    color: #fefefe;
+}
+#top-bar #tb1 p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px;
+}
+#top-bar-2{
+    justify-content: space-between;
+    height: 97px;
+
+}
+#top-bar-2 #top-bar-menu li{
+    display: inline;
+    padding: 12px;
+}
+#top-bar-2 #top-bar-menu button{
+    padding: 8px;
+}
+
+#top-bar-2 #top-bar-menu a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 800;
+    color: black;
+    transition: 0.2s;
+}
+#top-bar-2 #top-bar-menu a:hover{
+    background-color:#ff9ff3;
+    color: #0abbe3ce;
+    padding: 40px 10px;
+}
+/*heade top-barend */
+/* banner */
+#banner{
+  
+    height: 604px;
+    background-size: cover;
+   
+}
+#banner-info{
+    
+    align-items: center;
+}
+   
+
+
+
+
+#banner-info h2{
+  
+    font-size: 50px;
+    line-height: 70px;
+    color: #0f2f44 ;
+    font-weight: 400;
+    display: inline;
+   padding-bottom: 10px;
+}
+#banner-info h1{
+    color: var(--primary-color);
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    letter-spacing: 5px;
+    padding-bottom: 7px;
+}
+#banner-info h3{
+    font-size: 32px;
+    line-height: 24px;
+    color: #8484bf;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+#banner-info p{
+    font-size: 14px;
+    line-height: 24px;
+   padding-top:19px;
+   margin-bottom: 37px;
+}
+#banner-info a{
+    color: #ffffff;
+    padding: 20px;
+    background-color: #8484bf;
+    transition: 0.4s;
+    font-weight: 600;
+    
+}
+#banner-info a:hover{
+    color: black;
+    background-color: #10ac84;
+    font-weight: 800;
+}
+#banner-info img{
+padding-left: 30px;
+border: 3px black solid;
+padding-right: 30px;
+}
+#banner-info img:hover{
+    background-color: #54a0ff;
+   
+}
+/* banner End */
